@@ -1,0 +1,75 @@
+.story {
+    &__title {
+      font-size: 25px;
+      padding: 0;
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 15px;
+      @media (min-width: 580px) {
+        padding: 0 30px 25px;
+        margin-left: 28.7%;
+        margin-bottom: 80px;
+      }
+      @media (min-width: 320px) and (max-width: 1300px) {
+        font-size: calc(0.0194 * 100vw + 18.792px);
+      }
+      @media (min-width: 1300px) {
+        font-size: 43.3px;
+        padding: 0 90px 25px;
+        margin-left: 28.6%;
+      }
+    }
+    &__slider {
+      @include clearfix;
+      padding-bottom: 80px;
+    }
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+
+  display: block;
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  text-align: center;
+}
+.slick-dots li {
+  position: relative;
+
+  display: inline-block;
+
+  width: 13px;
+  height: 13px;
+  margin: 0 2px;
+  padding: 0;
+
+  cursor: pointer;
+  background-color: #b7b7b7;
+  border-radius: 50%;
+    &:active {
+      background-color: #414141;
+    }
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+
+  cursor: pointer;
+
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}

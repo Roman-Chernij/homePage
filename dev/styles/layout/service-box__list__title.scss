@@ -1,0 +1,13 @@
+.service-box__list__title {
+  font-family: $fontRalewayBold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 28px;
+    @media (min-width: 890px) {
+      font-size: 20px;
+    }
+    @media (min-width: 974px) {
+      font-size: 22px;
+    }
+}

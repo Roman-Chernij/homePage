@@ -1,0 +1,80 @@
+.section {
+  &__about {
+    padding-top: 30px;
+    padding-bottom: 0;
+      @media (min-width: 1270px) {
+        padding-top: 163px;
+        padding-bottom: 121px;
+      }
+  }
+  &__service {
+    padding-top: 31px;
+    padding-bottom: 30px;
+      @media (min-width: 1270px) {
+        padding-bottom: 163px;
+      }
+  }
+  &__statistic {
+    background-image: url('../img/bg-statistic.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    @media (min-width: 1270px) {
+      padding-top: 149px;
+      padding-bottom: 153px;
+    }
+  }
+  &__work {
+    padding-top: 30px;
+    padding-bottom: 25px;
+      @media (min-width: 1270px) {
+        padding-top: 194px;
+        padding-bottom: 100px;
+      }
+  }
+  &__story {
+    padding-top: 20px;
+    padding-bottom: 20px;
+      @media (min-width: 1270px) {
+        padding-top: 56px;
+        padding-bottom: 183px;
+      }
+
+  }
+  &__life-story {
+    background-color: #262626;
+    padding-bottom: 64px;
+  }
+  &__feedback {
+    padding-top: 40px;
+    padding-bottom: 20px;
+      @media (min-width: 1270px) {
+        padding-top: 188px;
+        padding-bottom: 147px;
+      }
+  }
+  &__tweet {
+    background-image: url('../img/bg-tweet.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media (min-width: 1270px) {
+      padding-top: 136px;
+      padding-bottom: 153px;
+    }
+  }
+  &__touch {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media (min-width: 1270px) {
+      padding-top: 205px;
+      padding-bottom: 178px;
+    }
+  }
+  &__map {
+    height: 685px;
+    width: 100%;
+    position: relative;
+  }
+}

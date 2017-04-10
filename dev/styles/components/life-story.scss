@@ -1,0 +1,73 @@
+.life-story {
+    &__image {
+      width: 95%;
+      padding: 66px 0 0 0;
+      float: none;
+      margin:0 auto;
+      @media (min-width: 780px) {
+        width: 80%;
+      }
+      @media (min-width: 1210px) {
+        float: left;
+        width: 42.5%;
+        margin: 0;
+        padding: 66px 0 0 58px;
+      }
+    }
+    &__info {
+      width: 80%;
+      float: none;
+      padding-top: 66px;
+      padding-right: 0;
+      padding-bottom: 0;
+      margin:0 auto;
+        @media (min-width: 1210px) {
+          width: 54.7%;
+          float: right;
+          padding-right: 10px;
+          margin: 0;
+          padding-bottom: 131px;
+        }
+        @media (min-width: 1290px) {
+          padding-right: 138px;
+        }
+        @media (min-width: 1400px) {
+          padding-top: 174px;
+        }
+        @media (min-width: 1500px) {
+          padding-right: 238px;
+        }
+        @media (min-width: 1666px) {
+          padding-right: 338px;
+        }
+    }
+}
+
+.life-image__item {
+  width: 100%;
+}
+
+.life-story__title {
+  font-size: 25px;
+  margin-bottom: 60px;
+  padding: 0 8px 26px;
+    @media (min-width: 320px) and (max-width: 1310px) {
+      font-size: calc(0.0252 * 100vw + 16.936px);
+    }
+    @media (min-width: 1311px) {
+      font-size: 50px;
+    }
+}
+
+.life-info__text {
+  font-family: Arial, sans-serif;
+  color: #c7c7c7;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.info-text_mod-margin {
+  margin-bottom: 30px;
+}
+

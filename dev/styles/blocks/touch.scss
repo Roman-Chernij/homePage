@@ -1,0 +1,128 @@
+.touch {
+    &__title {;
+      font-size: 25px;
+      padding: 0 30px 28px;
+      margin-left: 0;
+      margin-bottom: 21px;
+      text-align: center;
+        @media (min-width: 600px) {
+          margin-left: 28%;
+        }
+        @media (min-width: 1000px) {
+          padding: 0 168px 36px;
+          margin-left: 21%;
+          margin-bottom: 54px;
+        }
+        @media (min-width: 320px) and (max-width: 1300px) {
+          font-size: calc(0.0255 * 100vw + 16.84px);
+        }
+      @media (min-width: 1301px) {
+        font-size: 50px;
+      }
+    }
+    &__text {
+      font-family: arial, sans-serif;
+      padding: 0;
+      font-size: 20.5px;
+      line-height: 1.4;
+        @media (min-width: 900px) {
+          padding: 0 130px 0;
+        }
+    }
+}
+
+.touch__form {
+  padding-top: 99px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.form__field {
+  width: 100%;
+}
+
+.form__part {
+  width: 100%;
+    @media (min-width: 690px) {
+      width: 47%;
+    }
+}
+
+.part_mod-right {
+  float: none;
+    @media (min-width: 690px) {
+      float: right;
+    }
+}
+
+.part_mod-left {
+  float: none;
+    @media (min-width: 690px) {
+      float: left;
+    }
+}
+
+.field__name {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+}
+
+.field__input {
+  display: block;
+  width: 100%;
+  border-right: none;
+  border-left: none;
+  border-top:none;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 13px 0 12px 19px;
+  font-size: 31px;
+  margin-bottom: 42px;
+    &:focus {
+      border-bottom: 1px solid #f39c12;
+    }
+}
+.form__submit {
+  margin-top: 32px;
+  font-size: 26px;
+  padding: 12px 26px 12px 21px;
+  background-color: #f39c12;
+  border: none;
+  color: #fff;
+    &:hover {
+      color: #616257;
+      background-color: #f3891e;
+      transition: all linear 400ms;
+    }
+    &:active {
+      background-color: #ff9a37;
+      transition: background-color linear 400ms;
+    }
+}
+
+.form__message {
+  width: 100%;
+}
+
+.message {
+    &__name {
+      display: block;
+      width: 100%;
+      font-size: 26px;
+      padding-top: 10px;
+    }
+    &__input {
+      display: block;
+      width: 100%;
+      border-right: none;
+      border-left: none;
+      border-top:none;
+      border-bottom: 1px solid #c0c0c0;
+      font-size: 24px;
+      padding: 13px 10px 0;
+      height: 138px;
+        &:focus {
+          border-bottom: 1px solid #f39c12;
+        }
+    }
+}

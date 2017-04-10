@@ -1,0 +1,14 @@
+.service-box__list__descrition {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+  @media (min-width: 890px) {
+    font-size: 17px;
+  }
+  @media (min-width: 930px) {
+    padding-left: 38px;
+    padding-right: 16px;
+  }
+}

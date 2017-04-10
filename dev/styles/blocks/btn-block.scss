@@ -1,0 +1,46 @@
+.btn-block {
+  width: 200px;
+  margin: 181px auto 0;
+  @media (min-width: 485px) {
+    width: 467px;
+  }
+    &__elem {
+      display: block;
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: $fontRalewayBold;
+      border: 2px solid #fff;
+      margin: 0 auto;
+      @media (min-width: 485px) {
+        display: inline-block;
+        margin: 0;
+      }
+        &:hover {
+          background-color: $accentColor;
+          border: 2px solid $accentColor;
+          transition: all linear 400ms;
+         }
+        @media (min-width: 485px) {
+          font-size: 21px;
+        }
+        &_started {
+          padding: 16px 26px 18px 26px;
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 15px;
+          @media (min-width: 485px) {
+            margin-right: 19px;
+            margin-left: 4px;
+            margin-bottom: 0;
+            padding: 16px 39px 18px 37px;
+          }
+        }
+        &_portfolio {
+          padding: 16px 27px 18px 32px;
+          @media (min-width: 485px) {
+            padding: 16px 27px 18px 32px;
+          }
+        }
+    }
+}

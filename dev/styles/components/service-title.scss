@@ -1,0 +1,29 @@
+.service-title {
+  padding-bottom: 15px;
+  margin-left: 0;
+  font-size: 23px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  @media (min-width: 600px) {
+    margin-left: 21.5%;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  @media (min-width: 750px) {
+    margin-left: 28.5%;
+  }
+    @media (min-width: 900px) {
+      padding-left: 125px;
+      padding-right: 125px;
+      padding-bottom: 23px;
+      margin-bottom: 91px;
+    }
+    @media (min-width: 320px) and (max-width: 1000px) {
+      font-size: calc(0.0294 * 100vw + 13.591px);
+    }
+    @media (min-width: 1001px) {
+      font-size: 43px;
+    }
+}

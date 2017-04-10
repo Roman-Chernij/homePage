@@ -1,0 +1,36 @@
+.about-title {
+  margin:0 0 15px;
+  text-align: center;
+  font-size: 30px;
+  padding: 0;
+  @media (min-width: 600px) {
+    padding-left: 90px;
+    padding-right:90px;
+    padding-bottom: 26px;
+    margin-left: 16%;
+    margin-bottom: 77px;
+  }
+    @media (min-width: 670px) {
+      margin-left: 23%;
+      padding-left: 120px;
+      padding-right:120px;
+    }
+    @media (min-width: 966px) {
+      margin-left: 15%;
+      padding-left: 167px;
+      padding-right:167px;
+    }
+    @media (min-width: 1270px) {
+      margin-left: 10%;
+    }
+    @media (min-width: 320px) and (max-width: 1200px) {
+      font-size: calc(0.0204 * 100vw + 23.472px);
+    }
+    @media (min-width: 1201px) {
+      font-size: 48px;
+    }
+    @media (min-width: 1400px) {
+      margin-left: 140px;
+      margin-top: 5px;
+    }
+}

@@ -1,0 +1,109 @@
+.statistic {
+  &__title{
+    font-size: 25px;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 30px 26px;
+      @media (min-width: 580px) {
+        margin-left: 33.9%;
+      }
+      @media (min-width: 320px) and (max-width: 1300px) {
+        font-size: calc(0.025 * 100vw + 17px);
+      }
+      @media (min-width: 1300px) {
+        font-size: 49.5px;
+        padding: 0 130px 26px;
+        margin-left: 24.9%;
+      }
+  }
+  &__box {
+    padding: 113px 0 0;
+    @include clearfix;
+    @media (min-width: 1000px) {
+      padding: 113px 72px 0;
+    }
+  }
+  &__list {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    @media (min-width: 580px) {
+      width: 33%;
+      float: left;
+    }
+    @media (min-width: 1185px) {
+      margin-right: 51.5px;
+      width: 30%;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.list {
+  &__item {
+    text-align: center;
+    color: $color2TitleBlock;
+  }
+}
+
+.list__item_mod-title {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  @media (min-width: 800px) {
+    font-size: 35px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 40px;
+  }
+}
+
+.list__item_mod-image {
+  background-image: url('../img/spriteIcon.png');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 31px auto 38px;
+  background-color: $color2TitleBlock;
+  border-radius: 50%;
+  transition:  all linear 300ms;
+    &:hover {
+      transition: all linear 300ms;
+      background-color: $accentColor;
+    }
+}
+
+.item__image {
+    &-position1 {
+      background-position: 20px -93px;
+        &:hover {
+          background-position: 20px -168px;
+        }
+    }
+    &-position2 {
+      background-position: -110px -94px;
+        &:hover {
+          background-position: -109px -174px;
+        }
+    }
+    &-position3 {
+      background-position: -253px -94px;
+        &:hover {
+          background-position: -253px -173px;
+        }
+    }
+}
+.list__item_mod-text {
+  font-family: $fontRalewayBold;
+  font-size: 20px;
+  text-transform: uppercase;
+  @media (min-width: 780px) {
+    font-size: 25px;
+  }
+}
+
+.item__image {
+
+}

@@ -1,0 +1,140 @@
+.skills {
+  padding: 20px 0 0 10px;
+  width: 100%;
+  @media (min-width: 1270px) {
+    padding: 128px 0 0 10px;
+  }
+  @media (min-width: 1400px) {
+    padding: 128px 0 0 54px;
+  }
+  @media (min-width: 1670px) {
+    padding: 128px 76px 0 54px;
+  }
+  @media (min-width: 1805px) {
+    padding: 128px 131px 0 54px;
+  }
+}
+
+.skills-list {
+  width: 100%;
+}
+
+.skills-info {
+  float: left;
+}
+
+.skills-box {
+  @include clearfix;
+}
+
+.skills-info_block {
+  width: 80%;
+  padding-bottom: 35px;
+    @media (min-width: 424px) {
+      width: 83%;
+    }
+    @media (min-width: 485px) {
+      width: 85%;
+    }
+}
+
+.skills-info_number {
+  width: 20%;
+  padding: 20px 2px 25px 11px;
+  position: relative;
+  @media (min-width: 360px) {
+    padding: 20px 2px 25px 25px;
+  }
+    @media (min-width: 424px) {
+      width: 17%;
+    }
+    @media (min-width: 485px) {
+      width: 15%;
+    }
+    @media (min-width: 580px) {
+      padding: 20px 2px 25px 38px;
+    }
+    @media (min-width: 660px) {
+      padding: 20px 2px 25px 50px;
+    }
+    @media (min-width: 720px) {
+      padding: 20px 2px 25px 55px;
+    }
+}
+
+.skills-info__box {
+  padding-right: 3px;
+}
+
+.skills-info__box__name {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  margin-bottom: 6px;
+  @media (min-width: 600px) {
+    font-size: 22px;
+  }
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.skills-info__box__progress {
+  width: 100%;
+  height: 17px;
+  background-color: $backgroundProgress;
+}
+
+.skills-info_number-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px 0 9px 8px;
+  display: block;
+  @media (min-width: 490px) {
+    padding: 8px 0 7px 8px;
+    font-size: 16px;
+  }
+    @media (min-width: 690px) {
+      font-size: 18px;
+    }
+    @media (min-width: 760px) {
+      padding: 8px 0 7px 13px;
+    }
+    @media (min-width: 800px) {
+      padding: 8px 0 7px 19px;
+    }
+    @media (min-width: 860px) {
+      padding: 8px 0 7px 3px;
+    }
+    @media (min-width: 1310px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1575px) {
+      padding: 8px 0 7px 9px;
+    }
+}
+
+
+.triangle-left {
+  position: absolute;
+  top: 30px;
+  left: -1px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 12px solid $accentColor;
+  border-bottom: 7px solid transparent;
+  @media (min-width: 360px) {
+    left: 13px;
+  }
+    @media (min-width: 580px) {
+      left: 26px;
+    }
+    @media (min-width: 660px) {
+      top: 33px;
+      left: 38px;
+    }
+    @media (min-width: 720px) {
+      left: 44px;
+    }
+}

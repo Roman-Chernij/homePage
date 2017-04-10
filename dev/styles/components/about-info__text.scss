@@ -1,0 +1,21 @@
+
+.about-info__text {
+  font-family: Arial, sans-serif;
+  font-size: 20.3px;
+  line-height: 1.6;
+  padding: 0;
+  margin-bottom: -4px;
+  @media (1270px) {
+    padding: 0 0 0 10px;
+  }
+    @media (min-width: 1400px) {
+      padding: 0 0 0 55px;
+    }
+    @media (min-width: 1670px) {
+      padding: 0 102px 0 53px;
+    }
+}
+
+.about-info_block {
+  width: 840px;
+}
